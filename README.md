@@ -81,7 +81,7 @@ Then visit: [http://localhost:5173](http://localhost:5173)
 
 The app is deployed using [**Vercel**](https://vercel.com).
 
-🔗 **Live URL**: 
+🔗 **Live URL**: https://movie-finder-eight-psi.vercel.app/
 
 ---
 
