@@ -1,54 +1,106 @@
-# React + TypeScript + Vite
+# 🎬 Movie-Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Discover your next favorite movie effortlessly using React, TypeScript, and TMDB.**
 
-Currently, two official plugins are available:
+[![TypeScript](https://img.shields.io/badge/TypeScript-Strict-blue?logo=typescript)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Built%20With-Vite-purple?logo=vite)](https://vitejs.dev/)
+[![Tailwind](https://img.shields.io/badge/Styled%20With-TailwindCSS-38BDF8?logo=tailwindcss)](https://tailwindcss.com/)
+[![React](https://img.shields.io/badge/React-18-blue?logo=react)](https://reactjs.org/)
+[![TMDB](https://img.shields.io/badge/API-TMDB-01B4E4?logo=themoviedatabase)](https://www.themoviedb.org/)
+[![Deploy](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)](https://your-vercel-link.vercel.app) <!-- Replace with your real link -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Overview
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+**Movie-Finder** is a responsive web app that helps users search, discover, and explore movie data in real time — including trailers, overviews, ratings, and more.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+### 🔥 Key Features
+
+- 🔍 **Instant Search** powered by TMDB API
+- 🎞️ **Trailer Embedding** with YouTube integration
+- 🧠 **TypeScript + ESLint** strict code standards
+- 🌐 **Responsive UI** with Tailwind CSS
+- ☁️ **Appwrite Integration** for backend logic *(optional)*
+- 🚀 **Vite** for lightning-fast development experience
+
+---
+
+## ⚙️ Tech Stack
+
+| Tool         | Purpose                        |
+|--------------|--------------------------------|
+| **React**    | UI framework                   |
+| **TypeScript** | Type safety                  |
+| **Vite**     | Fast build tool                |
+| **Tailwind** | Styling                        |
+| **TMDB API** | Movie data                     |
+| **Appwrite** | Search analytics / backend     |
+| **Vercel**   | Deployment                     |
+
+---
+
+## 📦 Getting Started
+
+### ✅ Prerequisites
+
+Before you begin, make sure you have:
+
+- [Node.js](https://nodejs.org/) installed
+- [NPM](https://www.npmjs.com/) package manager
+
+---
+
+### 🧑‍💻 Installation
+
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/HammamYousef/movie-finder.git
+cd movie-finder
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### ▶️ Usage
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+To run the development server locally:
+
+```bash
+npm run dev
 ```
+
+Then visit: [http://localhost:5173](http://localhost:5173)
+
+---
+
+## 🌐 Deployment
+
+The app is deployed using [**Vercel**](https://vercel.com).
+
+🔗 **Live URL**: 
+
+---
+
+## 🧪 Testing
+
+> ℹ️ _Currently no testing framework is configured. Future plans include Vitest or Jest support._
+
+---
+
+## 🛡 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🙌 Acknowledgements
+
+- 🎬 [TMDB API](https://www.themoviedb.org/)
+- ☁️ [Appwrite](https://appwrite.io/)
+- ⚛️ [React](https://reactjs.org/)
+- 💨 [Tailwind CSS](https://tailwindcss.com/)
+- ⚡ [Vite](https://vitejs.dev/)
+
+> _Built with love by [@HammamYousef](https://github.com/HammamYousef) 💙_
