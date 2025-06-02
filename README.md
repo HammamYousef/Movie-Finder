@@ -11,6 +11,8 @@
 
 ---
 
+![Movie-Finder Preview](./public/AppPreview.png)
+
 ## 🚀 Overview
 
 **Movie-Finder** is a responsive web app that helps users search, discover, and explore movie data in real time — including trailers, overviews, ratings, and more.
